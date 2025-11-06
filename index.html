@@ -1,30 +1,41 @@
-<html>
-  <head>
-    <style>
-      body {
-        margin: 0;
-        background: #fff;
-        font-family: 'Roboto Mono', monospace;
-      }
-      p {
-        position: absolute;
-        top: 6px;
-        left: 6px;
-        font-size: 15px;
-        color: #000;
-        letter-spacing: 0.6px;
-      }
-      @media (max-width: 768px) {
-        p {
-          font-size: 18px; /* larger for phones and small tablets */
-          top: 4px;
-          left: 6px;
-        }
-      }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <p>we uncover corporate misconduct</p>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Aligned Intelligence</title>
+  <style>
+    :root { --text:#0a0a0a; --muted:#333; --maxw:980px; }
+    html,body{
+      height:100%; margin:0; background:#fff; color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,Inter,system-ui,sans-serif;
+      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    }
+    .wrap{ max-width:var(--maxw); margin:0 auto; padding:24px 20px 56px; }
+    .brand{ font-weight:700; letter-spacing:.02em; font-size:16px; margin:0 0 20px 0; }
+    .rule{ height:1px; background:#e6e6e6; margin:10px 0 28px 0; }
+    .lede{ font-weight:750; line-height:1.2; font-size:36px; margin:0 0 16px 0; }
+    .copy{ font-size:18px; line-height:1.5; color:var(--muted); margin:0; max-width:46ch; }
+    @media (max-width:768px){
+      .wrap{ padding:18px 16px 40px; }
+      .brand{ font-size:15px; }
+      .lede{ font-size:28px; }
+      .copy{ font-size:17px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1 class="brand">ALIGNED INTELLIGENCE</h1>
+    <div class="rule"></div>
+    <h2 class="lede">We uncover corporate misconduct.</h2>
+    <p class="copy">
+      We run data-driven investigations and develop systems that expose hidden patterns of fraud, privacy abuse, and regulatory violations across industries.
+    </p>
+  </main>
+</body>
 </html>
+

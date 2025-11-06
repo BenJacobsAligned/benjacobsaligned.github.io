@@ -14,7 +14,8 @@
       font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Helvetica,Arial,Inter,system-ui,sans-serif;
       -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
     }
-    .wrap{ max-width:var(--maxw); margin:0 auto; padding:24px 20px 56px; }
+    .wrap{ max-width:var(--maxw); margin:0; padding:24px 20px 56px; }
+    @media (min-width:769px){ .wrap{ margin-left:24px; margin-right:0; } } /* tweak 24px as desired */
     .brand{ font-weight:700; letter-spacing:.02em; font-size:16px; margin:0 0 20px 0; }
     .rule{ height:1px; background:#e6e6e6; margin:10px 0 28px 0; }
     .lede{ font-weight:750; line-height:1.2; font-size:36px; margin:0 0 16px 0; }
